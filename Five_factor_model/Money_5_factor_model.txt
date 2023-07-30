@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Money   R-squared:                       0.869
+Model:                            OLS   Adj. R-squared:                  0.867
+Method:                 Least Squares   F-statistic:                     476.2
+Date:                Sun, 30 Jul 2023   Prob (F-statistic):          1.21e-186
+Time:                        16:36:12   Log-Likelihood:                -934.20
+No. Observations:                 438   AIC:                             1882.
+Df Residuals:                     431   BIC:                             1911.
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept        0.2319      0.104      2.224      0.027       0.027       0.437
+Mkt_minus_RF     1.0810      0.025     43.609      0.000       1.032       1.130
+SMB             -0.1015      0.037     -2.727      0.007      -0.175      -0.028
+HML              0.7788      0.045     17.239      0.000       0.690       0.868
+RMW             -0.0541      0.047     -1.151      0.251      -0.147       0.038
+CMA             -0.3421      0.066     -5.208      0.000      -0.471      -0.213
+MOM             -0.0422      0.023     -1.820      0.069      -0.088       0.003
+==============================================================================
+Omnibus:                       17.907   Durbin-Watson:                   2.083
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               37.726
+Skew:                           0.177   Prob(JB):                     6.43e-09
+Kurtosis:                       4.393   Cond. No.                         5.66
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

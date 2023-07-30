@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Enrgy   R-squared:                       0.489
+Model:                            OLS   Adj. R-squared:                  0.481
+Method:                 Least Squares   F-statistic:                     68.63
+Date:                Sun, 30 Jul 2023   Prob (F-statistic):           9.77e-60
+Time:                        16:36:12   Log-Likelihood:                -1290.9
+No. Observations:                 438   AIC:                             2596.
+Df Residuals:                     431   BIC:                             2624.
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept        0.0642      0.234      0.274      0.784      -0.396       0.524
+Mkt_minus_RF     0.9706      0.056     17.344      0.000       0.861       1.081
+Adj_SMB          0.1202      0.084      1.430      0.153      -0.045       0.285
+Adj_HML          0.5395      0.102      5.290      0.000       0.339       0.740
+RMW              0.1621      0.092      1.764      0.078      -0.019       0.343
+CMA              0.8259      0.111      7.441      0.000       0.608       1.044
+MOM              0.0286      0.052      0.546      0.585      -0.074       0.131
+==============================================================================
+Omnibus:                       39.829   Durbin-Watson:                   2.030
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               81.693
+Skew:                           0.519   Prob(JB):                     1.82e-18
+Kurtosis:                       4.844   Cond. No.                         5.56
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

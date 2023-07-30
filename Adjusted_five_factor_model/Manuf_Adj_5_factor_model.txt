@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Manuf   R-squared:                       0.881
+Model:                            OLS   Adj. R-squared:                  0.880
+Method:                 Least Squares   F-statistic:                     532.8
+Date:                Sun, 30 Jul 2023   Prob (F-statistic):          7.66e-196
+Time:                        16:36:12   Log-Likelihood:                -905.36
+No. Observations:                 438   AIC:                             1825.
+Df Residuals:                     431   BIC:                             1853.
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept        0.1546      0.097      1.592      0.112      -0.036       0.345
+Mkt_minus_RF     1.1519      0.023     49.634      0.000       1.106       1.198
+Adj_SMB          0.2312      0.035      6.634      0.000       0.163       0.300
+Adj_HML          0.1114      0.042      2.633      0.009       0.028       0.195
+RMW              0.2333      0.038      6.123      0.000       0.158       0.308
+CMA              0.2453      0.046      5.330      0.000       0.155       0.336
+MOM             -0.0669      0.022     -3.084      0.002      -0.110      -0.024
+==============================================================================
+Omnibus:                       11.571   Durbin-Watson:                   2.129
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               17.621
+Skew:                          -0.190   Prob(JB):                     0.000149
+Kurtosis:                       3.906   Cond. No.                         5.56
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
